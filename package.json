@@ -1,17 +1,22 @@
 {
-    "name": "social-network-api",
-    "version": "1.0.0",
-    "description": "A social network API built with Express and MongoDB.",
-    "main": "server.js",
-    "scripts": {
-      "start": "node server.js",
-      "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "dependencies": {
-      "express": "^4.17.1",
-      "mongoose": "^5.10.9"
-    },
-    "author": "Melyana Lie",
-    "license": "MIT"
-  }
-  
+  "name": "socialnetworkapi",
+  "version": "1.0.0",
+  "description": "API for a social network web application",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.12",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "keywords": [],
+  "author": "Melyana Lie",
+  "license": "ISC"
+}
+
